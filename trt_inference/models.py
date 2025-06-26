@@ -799,7 +799,7 @@ def get_path(version, inpaint=False):
             if os.path.exists(os.path.join(local_cache_dir, 'stable-diffusion-inpainting')):
                 return os.path.join(local_cache_dir, 'stable-diffusion-inpainting')
             else:
-                return "runwayml/stable-diffusion-inpainting"
+                return "stable-diffusion-inpainting"
         else:
             if os.path.exists(os.path.join(local_cache_dir, 'stable-diffusion-v1-4')):
                 return os.path.join(local_cache_dir, 'stable-diffusion-v1-4')
@@ -810,12 +810,12 @@ def get_path(version, inpaint=False):
             if os.path.exists(os.path.join(local_cache_dir, 'stable-diffusion-inpainting')):
                 return os.path.join(local_cache_dir, 'stable-diffusion-inpainting')
             else:
-                return "runwayml/stable-diffusion-inpainting"
+                return "stable-diffusion-inpainting"
         else:
             if os.path.exists(os.path.join(local_cache_dir, 'stable-diffusion-v1-5')):
                 return os.path.join(local_cache_dir, 'stable-diffusion-v1-5')
             else:
-                return "runwayml/stable-diffusion-v1-5"
+                return "stable-diffusion-inpainting"
     elif version == "2.0-base":
         if inpaint:
             if os.path.exists(os.path.join(local_cache_dir, 'stable-diffusion-2-inpainting')):
